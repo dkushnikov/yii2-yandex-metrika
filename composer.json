@@ -1,0 +1,25 @@
+{
+    "name":              "dkushnikov/yii2-yandex-metrika",
+    "description":       "Yii2 widget to add Yandex.Metrika counter on page",
+    "keywords":          [
+        "yii2",
+        "yandex",
+        "metrika",
+        "yandex.metrika"
+    ],
+    "type":              "yii2-extension",
+    "license":           "BSD License",
+    "authors":           [
+        {
+            "name":  "Dmitry Kushnikov",
+            "email": "dkushnikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":           {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {"yii\\widgets\\": ""}
+    }
+}
