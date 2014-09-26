@@ -20,6 +20,6 @@
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-4": {"yii\\widgets\\": ""}
+        "psr-4": {"yii\\widgets\\": "src/"}
     }
 }
