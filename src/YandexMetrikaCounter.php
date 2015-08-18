@@ -33,11 +33,12 @@ class YandexMetrikaCounter extends Widget
             'counterId'     => $this->counterId,
             'counterParams' => [
                 'id'                  => intval($this->counterId),
-                'webvisor'            => (bool) $this->webvisor,
-                'trackHash'           => (bool) $this->trackHash,
-                'clickmap'            => (bool) $this->clickmap,
-                'trackLinks'          => (bool) $this->trackLinks,
-                'accurateTrackBounce' => (bool) $this->accurateTrackBounce,
+                'webvisor'            => (bool)$this->webvisor,
+                'trackHash'           => (bool)$this->trackHash,
+                'clickmap'            => (bool)$this->clickmap,
+                'trackLinks'          => (bool)$this->trackLinks,
+                'accurateTrackBounce' => (bool)$this->accurateTrackBounce,
+                'ut'                  => $this->noindex ? 'noindex' : '',
                 'params'              => $this->visitParams
             ],
         ];
